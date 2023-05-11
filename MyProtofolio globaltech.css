@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.navitem {
+    color: black;
+    font-weight: bold;
+}
+
+.about-me-section {
+    background-color: #ffffff;
+}
+
+.about-me-section-sub-heading {
+    color: #cced00;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.about-me-section-heading {
+    color: #de371d;
+    font-family: "Copperplate Gothic Light";
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.about-me-section-description {
+    color: black;
+    font-family: "Cordia New";
+    font-size: 20px;
+
+
+}
+
+.about-me-section-image {
+    width: 100%;
+}
+
+.skills-section {
+
+    background-color: #a7defc;
+}
+
+.skills-section-sub-heading {
+    color: #de371d;
+    font-family: "Copperplate Gothic Light";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.skills-card {
+    background-color: #ffffff;
+    border-radius: 9px;
+    padding: 10px;
+}
+
+.skills-card-image {
+    width: 64px;
+    height: 64px;
+}
+
+.skills-card-title {
+    color: #323f4b;
+    font-family: "Cordia New";
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.portfolio-logo {
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 0px;
+    color: #323f4b;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'palatino';
+}
+
+.banner-section-bg-container {
+    background: rgb(218, 104, 94);
+    background: linear-gradient(162deg, rgba(218, 104, 94, 0.5971638655462185) 0%, rgba(172, 168, 135, 0.644782913165266) 0%, rgba(249, 158, 12, 1) 0%, rgba(255, 255, 255, 1) 49%, rgba(54, 235, 33, 1) 100%, rgba(167, 91, 160, 0.644782913165266) 100%);
+    height: 100vh;
+}
+
+.banner-section-heading {
+    color: black;
+    font-family: "Roboto";
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.banner-section-description {
+    color: green;
+    font-family: "Courier New";
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.banner-section-image {
+    margin-top: 30px;
+    border-radius: 15px;
+    height: 90%;
+    width: 75%;
+    margin-bottom: 10px;
+}
+
+.person-name {
+    color: #4b6cc1;
+    font-family: 'Gabriola';
+}
+
+.custom-button {
+    color: white;
+    background-color: #4b6cc1;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+}
+
+.projects-section {
+    background-color: #ffffff;
+
+}
+
+.projects-section-sub-heading {
+    color: black;
+    font-family: "Copperplate Gothic Light";
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.projects-section-heading {
+    color: #de371d;
+    font-family: "Copperplate Gothic Light";
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.projects-card {
+    background: rgb(34, 193, 195);
+    background: linear-gradient(150deg, rgba(34, 193, 195, 1) 0%, rgba(143, 222, 217, 1) 0%, rgba(255, 255, 255, 1) 48%, rgba(231, 134, 226, 1) 100%);
+    border-radius: 8px;
+}
+
+.projects-card-image {
+    width: 100%;
+}
+
+.projects-card-sub-title {
+    color: red;
+    font-family: "Gabriola";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.projects-card-title {
+    color: black;
+    font-family: "Gabriola";
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.projects-card-description {
+    color: black;
+    font-family: "Cordia New";
+    font-size: 20px;
+}
+
+.projects-card-link {
+    color: #cced00;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.services-section {
+    background-color: #a7defc;
+}
+
+.services-section-sub-heading {
+    color: black;
+    font-family: "Gabriola";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.services-section-heading {
+    color: #de371d;
+    font-family: "Copperplate Gothic Light";
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.services-card {
+    background: rgb(34, 193, 195);
+    background: linear-gradient(150deg, rgba(34, 193, 195, 1) 0%, rgba(143, 222, 217, 1) 0%, rgba(255, 255, 255, 1) 48%, rgba(231, 134, 226, 1) 100%);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.services-card-image {
+    height: 48px;
+    width: 48px;
+
+}
+
+.services-card-images {
+    height: 48px;
+    width: 55px;
+
+}
+
+.services-card-title {
+    color: black;
+    font-family: "Cordia New";
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.services-card-description {
+    color: black;
+    font-family: "Cordia New";
+    font-size: 20px;
+}
+
+
+
+
+.footer-section {
+    background-color: #ffffff;
+}
+
+.footer-section-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+}
+
+
+
+.footer-section-sub-heading {
+    color: #de371d;
+    font-family: "Copperplate Gothic Light";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer-section-text {
+    color: black;
+    font-family: "Cordia New";
+    font-size: 14px;
+}
+
+
+.horizontal-line {
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+.icon {
+    color: #0f0303;
+
+}
+
+.para1 {
+    color: #000000;
+    font-family: "Copperplate Gothic Light";
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+}
